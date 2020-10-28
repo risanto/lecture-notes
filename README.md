@@ -1,6 +1,6 @@
 # lecture-notes
 
-Notes of the previous lectures taught in Hacktiv8.
+Notes of the previous lectures taught in Phase 0 Hacktiv8.
 
 **Week 1**
 
