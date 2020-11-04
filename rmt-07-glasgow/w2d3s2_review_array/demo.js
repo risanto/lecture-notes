@@ -118,7 +118,7 @@ function sebutDanTambahAngka(array) {
         }
     }
 
-    return output
+    return true
 }
 
 // console.log(sebutDanTambahAngka([1, 2, 3, 4, 5]))
