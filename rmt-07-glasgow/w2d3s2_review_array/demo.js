@@ -40,7 +40,7 @@ fruits[1] = 'pepaya'
 Kenapa bukan ['mongga', 'pepaya'] ? Karena:
 
 - string immutable -> elemen di dalamnya tidak bisa direplace
-- array mutable -> elemen di dalamnya tidak bisa direplace
+- array mutable -> elemen di dalamnya bisa direplace
 
 */
 
