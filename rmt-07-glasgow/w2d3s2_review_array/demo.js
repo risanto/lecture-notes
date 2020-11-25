@@ -40,7 +40,7 @@ fruits[1] = 'pepaya'
 Kenapa bukan ['mongga', 'pepaya'] ? Karena:
 
 - string immutable -> elemen di dalamnya tidak bisa direplace
-- array mutable -> elemen di dalamnya tidak bisa direplace
+- array mutable -> elemen di dalamnya bisa direplace
 
 */
 
@@ -65,7 +65,7 @@ function cekSama(arr1, arr2) {
         if (arr1[i] !== arr2[i]) return false // single-line if
     }
 
-    return output // default return ketika tidak ada yang direturn dari lines sebelumnya
+    return true // default return ketika tidak ada yang direturn dari lines sebelumnya
 }
 
 // console.log(cekSama([], [])) // true
@@ -118,7 +118,7 @@ function sebutDanTambahAngka(array) {
         }
     }
 
-    return output
+    return true
 }
 
 // console.log(sebutDanTambahAngka([1, 2, 3, 4, 5]))
